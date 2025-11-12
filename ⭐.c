@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+int a() {
+printf("rectagle increasing stars rectangle");
     int i, j, rows = 5;
 
     for (i = 1; i <= rows; i++) {
@@ -10,9 +11,9 @@ int main() {
     }
     return 0;
 }
-#include <stdio.h>
 
-int main() {
+int b() {
+printf("rectagle decreasing stars rectangle");
     int i, j, rows = 5;
 
     for (i = rows; i >= 1; i--) {
@@ -23,22 +24,9 @@ int main() {
     }
     return 0;
 }
-#include <stdio.h>
 
-int main() {
-    int i, j, rows = 5;
-
-    for (i = rows; i >= 1; i--) {
-        for (j = 1; j <= i; j++) {
-            printf("*");
-        }
-        printf("\n");
-    }
-    return 0;
-}
-#include <stdio.h>
-
-int main() {
+int c() {
+printf("rectagle diamond stars shape");
     int i, j, space, rows = 5;
 
     // Upper half
@@ -63,9 +51,9 @@ int main() {
     }
     return 0;
 }
-#include <stdio.h>
 
-int main() {
+int d() {
+printf("rectagle rectangle stars shape");
     int i, j, rows = 5;
 
     for (i = 1; i <= rows; i++) {
@@ -76,4 +64,13 @@ int main() {
     }
     return 0;
 }
+int main(){
+ a();
+ b();
+ c();
+ d();
+return 0;
+
+}
+
   
